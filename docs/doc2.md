@@ -1,10 +1,17 @@
 ---
 id: doc2
-title: document number 2
+title: Klanten
 ---
 
-This is a link to [another document.](doc3.md)  
+Klanten hebben meestal onderstaande properties
 
-Hoi
+```
+Naam
+Klantnummer
+Factuuradres
+Afleveradres (1 of meer)
+Telefoonnummer
+Status (actief / niet actief)
+```
 
-This is a link to an [external page.](http://www.example.com)
+De klantproperties worden tijdens het aansluiten vertaald naar het datamodel van OrderField en opgeslagen in een zgn. _schema_. De klantdata wordt vervolgens op basis van dit schema geimporteerd.

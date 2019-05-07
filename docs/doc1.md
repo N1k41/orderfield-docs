@@ -1,18 +1,40 @@
 ---
 id: doc1
-title: Overview
-sidebar_label: Overview
+title: Introductie
+sidebar_label: Introductie
 ---
 
-## Introduction
+OrderField  <=> ERP systeem.
 
-OrderField makes your ordering process easy and effective. Your **customers** and **sales reps** can visit your B2B online store or use the OrderField app 24/7 to place their orders within a few minutes.
+* Alle data over bijv. producten, prijzen en klanten wordt beheerd in het ERP systeem.
+=> De ERP data wordt geimporteerd in OrderField. 
+* Orders worden samengesteld in OrderField
+=> De orders worden geimporteerd in het ERP systeem.
 
-OrderField integrates with all major ERP vendors, is platform agnostic and cloud based.
+## Basis Data (vanuit ERP systeem)
 
-## Hallo
+Om klanten toegang te geven en artikelen te laten bestellen zijn minimaal de volgende gegevens nodig:
 
-## Get OrderField
+* Producten (naam, artikelnummer)
+* Prijzen
+* Klanten (naam, klantnummer, adres)
 
+Optioneel kunnen bijv. voorraden, kortingen en delivery leadtimes worden verwerkt.
+
+[Meer over klantdata](doc3.md)
+
+## Orders
+Orders kunnen op verschillende manieren worden aangeboden aan het ERP systeem. De meest gangbare methoden zijn via een API / Webservice of via uitwisseling van files. 
+
+Meest gangbare formaten zijn JSON, XML, TXT en CSV
+
+[Meer over orders](doc4.md)
+
+
+## Volgende stappen
+
+* [Klantdata](doc3.md) 
+* [Productdata](doc4.md)
+* [Prijzen](doc4.md)     
 * try [demo.orderfield.com](https://demo.orderfield.com)
 * [contact us](mailto:info@orderfield.com)

@@ -1,18 +1,9 @@
 ---
 id: doc4
-title: The OrderField API
-sidebar_label: Doc 4
+title: Orders
+sidebar_label: Orders
 ---
 
-I can write content using [GitHub-flavored Markdown syntax](https://github.github.com/gfm/).
+Orders kunnen op verschillende manieren worden aangeboden aan het ERP systeem. De meest gangbare methoden zijn via een API / Webservice of via uitwisseling van files.
 
-## Markdown Syntax
-
-**Bold** _italic_ `code` [Links](#url)
-
-> Donec sit amet nisl. Aliquam semper ipsum sit amet velit. Suspendisse
-> id sem consectetuer libero luctus adipiscing.
-
-* Hey
-* Ho
-* Let's Go
+Meest gangbare formaten zijn JSON, XML, TXT en CSV
