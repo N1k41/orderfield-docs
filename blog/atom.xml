@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://n1k41.github.io/orderfield-documentation/blog</id>
+    <title>OrderField Documentation Blog</title>
+    <updated>2019-05-06T06:00:00Z</updated>
+    <generator>Feed for Node.js</generator>
+    <link rel="alternate" href="https://n1k41.github.io/orderfield-documentation/blog"/>
+    <subtitle>The best place to stay up-to-date with the latest OrderField Documentation news and events.</subtitle>
+    <logo>https://n1k41.github.io/orderfield-documentation/img/favicon.ico</logo>
+    <rights>Copyright © 2019 OrderField</rights>
+    <entry>
+        <title type="html"><![CDATA[New App Version]]></title>
+        <id>https://n1k41.github.io/orderfield-documentation/blog/2019/05/06/new-app-version.html</id>
+        <link href="https://n1k41.github.io/orderfield-documentation/blog/2019/05/06/new-app-version.html">
+        </link>
+        <updated>2019-05-06T06:00:00Z</updated>
+        <summary type="html"><![CDATA[<p>After succesfully testing our app prototype in production, we are now refactoring and rebuilding the app in Ionic 4.0</p> ]]></summary>
+        <author>
+            <name>Nikai Steur</name>
+            <uri>https://www.linkedin.com/in/nikaisteur/</uri>
+        </author>
+    </entry>
+</feed>
