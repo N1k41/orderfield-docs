@@ -1,17 +1,34 @@
 ---
 id: doc2
-title: Klanten
+title: ERP Data
+sidebar_label: ERP Data
 ---
 
-Klanten hebben meestal onderstaande properties
+Om klanten toegang te geven en producten te laten bestellen zijn minimaal de volgende gegevens nodig:
 
-```
-Naam
-Klantnummer
-Factuuradres
-Afleveradres (1 of meer)
-Telefoonnummer
-Status (actief / niet actief)
-```
+* [Klanten](#klanten)
+* [Producten](#producten)
+* [Prijzen](#prijzen)
 
-De klantproperties worden tijdens het aansluiten vertaald naar het datamodel van OrderField en opgeslagen in een zgn. _schema_. De klantdata wordt vervolgens op basis van dit schema geimporteerd.
+## Klanten
+
+Klanten hebben doorgaans onderstaande properties
+
+* `Naam`
+* `Klantnummer`
+* `Factuuradres`
+* `Afleveradres(sen)`
+* `Telefoonnummer`
+* `Status` - actief / niet actief
+
+[Bekijk alle klantproperties](#)
+
+## Producten
+Productdata bestaat uit een aantal standaard gegevens
+* `Naam` - de naam van het product
+* `Artikelnummer` - (uniek) artikelnummer van het product
+* etc.
+
+## Prijzen
+
+Prijzen kunnen worden aangeleverd per product of per klant.

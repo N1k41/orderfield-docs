@@ -22,7 +22,7 @@ const users = [
 
 const siteConfig = {
   title: 'OrderField Documentation', // Title for your website.
-  tagline: 'Testing ',
+  tagline: 'OrderField',
   url: 'https://n1k41.github.io', // Your website URL
   baseUrl: '/orderfield-documentation/', // Base URL for your project */
   // For github.io type URLs, you would set the url and baseUrl like:
@@ -39,7 +39,7 @@ const siteConfig = {
   // For no header links in the top nav bar -> headerLinks: [],
   headerLinks: [
     {doc: 'doc1', label: 'Docs'},
-    {doc: 'doc4', label: 'API'},
+    {doc: 'doc20', label: 'API'},
     {page: 'help', label: 'Help'},
     {blog: true, label: 'Blog'},
   ],
