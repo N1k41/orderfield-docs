@@ -1,0 +1,65 @@
+<!DOCTYPE html><html lang="en"><head><meta charSet="utf-8"/><meta http-equiv="X-UA-Compatible" content="IE=edge"/><title>Klanten onboarden · OrderField Documentation</title><meta name="viewport" content="width=device-width"/><meta name="generator" content="Docusaurus"/><meta name="description" content="&lt;p&gt;Ok, OrderField is ingericht en je bent klaar om je eerste klanten er op los te laten. Onze ervaring is dat het toegang geven aan een paar &#x27;bevriende&#x27; klanten een lekkere eerste stap is.&lt;/p&gt;
+"/><meta name="docsearch:language" content="en"/><meta property="og:title" content="Klanten onboarden · OrderField Documentation"/><meta property="og:type" content="website"/><meta property="og:url" content="https://n1k41.github.io/orderfield-documentation/"/><meta property="og:description" content="&lt;p&gt;Ok, OrderField is ingericht en je bent klaar om je eerste klanten er op los te laten. Onze ervaring is dat het toegang geven aan een paar &#x27;bevriende&#x27; klanten een lekkere eerste stap is.&lt;/p&gt;
+"/><meta property="og:image" content="https://n1k41.github.io/orderfield-documentation/img/undraw_online.svg"/><meta name="twitter:card" content="summary"/><meta name="twitter:image" content="https://n1k41.github.io/orderfield-documentation/img/undraw_tweetstorm.svg"/><link rel="shortcut icon" href="/orderfield-documentation/img/favicon.ico"/><link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/default.min.css"/><link rel="alternate" type="application/atom+xml" href="https://n1k41.github.io/orderfield-documentation/blog/atom.xml" title="OrderField Documentation Blog ATOM Feed"/><link rel="alternate" type="application/rss+xml" href="https://n1k41.github.io/orderfield-documentation/blog/feed.xml" title="OrderField Documentation Blog RSS Feed"/><script type="text/javascript" src="https://buttons.github.io/buttons.js"></script><link rel="stylesheet" href="/orderfield-documentation/css/main.css"/><script src="/orderfield-documentation/js/codetabs.js"></script></head><body class="sideNavVisible separateOnPageNav"><div class="fixedHeaderContainer"><div class="headerWrapper wrapper"><header><a href="/orderfield-documentation/"><img class="logo" src="/orderfield-documentation/img/favicon.ico" alt="OrderField Documentation"/><h2 class="headerTitleWithLogo">OrderField Documentation</h2></a><div class="navigationWrapper navigationSlider"><nav class="slidingNav"><ul class="nav-site nav-site-internal"><li class="siteNavGroupActive"><a href="/orderfield-documentation/docs/doc1" target="_self">Docs</a></li><li class=""><a href="/orderfield-documentation/docs/doc20" target="_self">API</a></li><li class=""><a href="/orderfield-documentation/help" target="_self">Help</a></li><li class=""><a href="/orderfield-documentation/blog/" target="_self">Blog</a></li></ul></nav></div></header></div></div><div class="navPusher"><div class="docMainWrapper wrapper"><div class="container docsNavContainer" id="docsNav"><nav class="toc"><div class="toggleNav"><section class="navWrapper wrapper"><div class="navBreadcrumb wrapper"><div class="navToggle" id="navToggler"><div class="hamburger-menu"><div class="line1"></div><div class="line2"></div><div class="line3"></div></div></div><h2><i>›</i><span>Klanten onboarden</span></h2><div class="tocToggler" id="tocToggler"><i class="icon-toc"></i></div></div><div class="navGroups"><div class="navGroup"><h3 class="navGroupCategoryTitle">Starten met OrderField</h3><ul class=""><li class="navListItem"><a class="navItem" href="/orderfield-documentation/docs/doc1">Introductie</a></li><li class="navListItem"><a class="navItem" href="/orderfield-documentation/docs/doc2">ERP Data</a></li><li class="navListItem"><a class="navItem" href="/orderfield-documentation/docs/doc4">Orders</a></li></ul></div><div class="navGroup"><h3 class="navGroupCategoryTitle">Opties</h3><ul class=""><li class="navListItem"><a class="navItem" href="/orderfield-documentation/docs/doc3">Huisstijl</a></li><li class="navListItem"><a class="navItem" href="/orderfield-documentation/docs/orders-1">Order types</a></li><li class="navListItem"><a class="navItem" href="/orderfield-documentation/docs/stock-1">Toekomstige voorraad</a></li></ul></div><div class="navGroup"><h3 class="navGroupCategoryTitle">Klanten onboarden</h3><ul class=""><li class="navListItem navListItemActive"><a class="navItem" href="/orderfield-documentation/docs/onboarding-1">Start met bevriende klanten</a></li></ul></div></div></section></div><script>
+            var coll = document.getElementsByClassName('collapsible');
+            var checkActiveCategory = true;
+            for (var i = 0; i < coll.length; i++) {
+              var links = coll[i].nextElementSibling.getElementsByTagName('*');
+              if (checkActiveCategory){
+                for (var j = 0; j < links.length; j++) {
+                  if (links[j].classList.contains('navListItemActive')){
+                    coll[i].nextElementSibling.classList.toggle('hide');
+                    coll[i].childNodes[1].classList.toggle('rotate');
+                    checkActiveCategory = false;
+                    break;
+                  }
+                }
+              }
+
+              coll[i].addEventListener('click', function() {
+                var arrow = this.childNodes[1];
+                arrow.classList.toggle('rotate');
+                var content = this.nextElementSibling;
+                content.classList.toggle('hide');
+              });
+            }
+
+            document.addEventListener('DOMContentLoaded', function() {
+              createToggler('#navToggler', '#docsNav', 'docsSliderActive');
+              createToggler('#tocToggler', 'body', 'tocActive');
+
+              const headings = document.querySelector('.toc-headings');
+              headings && headings.addEventListener('click', function(event) {
+                if (event.target.tagName === 'A') {
+                  document.body.classList.remove('tocActive');
+                }
+              }, false);
+
+              function createToggler(togglerSelector, targetSelector, className) {
+                var toggler = document.querySelector(togglerSelector);
+                var target = document.querySelector(targetSelector);
+
+                if (!toggler) {
+                  return;
+                }
+
+                toggler.onclick = function(event) {
+                  event.preventDefault();
+
+                  target.classList.toggle(className);
+                };
+              }
+            });
+        </script></nav></div><div class="container mainContainer"><div class="wrapper"><div class="post"><header class="postHeader"><h1 class="postHeaderTitle">Klanten onboarden</h1></header><article><div><span><p>Ok, OrderField is ingericht en je bent klaar om je eerste klanten er op los te laten. Onze ervaring is dat het toegang geven aan een paar 'bevriende' klanten een lekkere eerste stap is.</p>
+<p>Vraag ze een account aan te maken (via /create-account) en een paar orders in te voeren. Nieuwe orders of eerdere orders, maakt niet zoveel uit. Het gaat om een test: zien de klanten de juiste producten, prijzen, info die ze nodig hebben? Check ook of de orders goed jouw ERP systeem in komen en of de orderbevestigingen bij de juiste persoon terecht komen.</p>
+<p>Als dat goed gaat en eventuele plooitjes zijn gladgestreken, dan kun je een grotere groep toegang geven.</p>
+<h2><a class="anchor" aria-hidden="true" id="uitnodiging"></a><a href="#uitnodiging" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Uitnodiging</h2>
+<pre><code class="hljs"><span class="hljs-string">Wij </span><span class="hljs-string">hebben </span><span class="hljs-string">een </span><span class="hljs-string">nieuwe </span><span class="hljs-string">webshop.</span> <span class="hljs-string">Om </span><span class="hljs-string">toegang </span><span class="hljs-string">te </span><span class="hljs-string">krijgen </span><span class="hljs-string">dient </span>u <span class="hljs-string">eenmalig </span><span class="hljs-string">een </span><span class="hljs-string">account </span><span class="hljs-string">aan </span><span class="hljs-string">te </span><span class="hljs-string">maken.</span> 
+
+<span class="hljs-string">Ga </span><span class="hljs-string">naar </span><span class="hljs-string">webshop.</span>[<span class="hljs-string">naam]</span>/<span class="hljs-built_in">create-account</span> <span class="hljs-string">etc.</span>
+</code></pre>
+<h2><a class="anchor" aria-hidden="true" id="klant-aanmaken-in-erp"></a><a href="#klant-aanmaken-in-erp" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Klant aanmaken in ERP</h2>
+<p>Keuze al 'standaard' prijzen te laten zien en laten bestellen of nog geen prijzen.</p>
+<h2><a class="anchor" aria-hidden="true" id="klant-account-laten-aanmaken"></a><a href="#klant-account-laten-aanmaken" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Klant account laten aanmaken</h2>
+<p>Als een klant bekend is in het systeem, dan kan de klant een user account aanmaken.</p>
+</span></div></article></div><div class="docs-prevnext"><a class="docs-prev button" href="/orderfield-documentation/docs/stock-1"><span class="arrow-prev">← </span><span>Toekomstige voorraad</span></a></div></div></div><nav class="onPageNav"><ul class="toc-headings"><li><a href="#uitnodiging">Uitnodiging</a></li><li><a href="#klant-aanmaken-in-erp">Klant aanmaken in ERP</a></li><li><a href="#klant-account-laten-aanmaken">Klant account laten aanmaken</a></li></ul></nav></div><footer class="nav-footer" id="footer"><section class="sitemap"><a href="/orderfield-documentation/" class="nav-home"><img src="/orderfield-documentation/img/favicon.ico" alt="OrderField Documentation" width="66" height="58"/></a><div><h5>Docs</h5><a href="/orderfield-documentation/docs/en/doc1.html">Starten met OrderField</a><a href="/orderfield-documentation/docs/en/doc2.html">Guides</a><a href="/orderfield-documentation/docs/en/doc3.html">API Reference</a></div><div><h5>Community</h5><a href="/orderfield-documentation/en/users.html">User Showcase</a><a href="http://stackoverflow.com/questions/tagged/" target="_blank" rel="noreferrer noopener">Stack Overflow</a><a href="https://discordapp.com/">Project Chat</a><a href="https://twitter.com/" target="_blank" rel="noreferrer noopener">Twitter</a></div><div><h5>More</h5><a href="/orderfield-documentation/blog">Blog</a><a href="https://github.com/">GitHub</a><a class="github-button" data-icon="octicon-star" data-count-href="/facebook/docusaurus/stargazers" data-show-count="true" data-count-aria-label="# stargazers on GitHub" aria-label="Star this project on GitHub">Star</a></div></section><section class="copyright">Copyright © 2019 OrderField</section></footer></div></body></html>
