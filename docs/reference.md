@@ -16,3 +16,7 @@ I can write content using [GitHub-flavored Markdown syntax](https://github.githu
 * Hey
 * Ho
 * Let's Go
+
+Images doe je zo:
+
+![](https://commonmark.org/help/images/favicon.png)

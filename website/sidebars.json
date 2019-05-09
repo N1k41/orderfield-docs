@@ -1,7 +1,8 @@
 {
   "docs": {
-    "Starten met OrderField": ["doc1", "doc2","doc4","doc3"],
-    "Opties": ["orders-1","stock-1"]
+    "Starten met OrderField": ["doc1", "doc2","doc4"],
+    "Opties": ["doc3", "orders-1","stock-1"],
+    "Klanten onboarden":["onboarding-1"]
   },
   "docs-other": {
     "First Category": ["doc999"]
