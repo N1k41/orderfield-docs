@@ -1,12 +1,14 @@
 ---
 id: onboarding-1
 title: Klanten onboarden
-sidebar_label: Start met bevriende klanten
+sidebar_label: De eerste klanten
 ---
 
-Ok, OrderField is ingericht en je bent klaar om je eerste klanten er op los te laten. Onze ervaring is dat het toegang geven aan een paar 'bevriende' klanten een lekkere eerste stap is.
+Ok, OrderField is ingericht en je bent klaar voor de eerste tests van echte klanten. 
 
-Vraag ze een account aan te maken (via /create-account) en een paar orders in te voeren. Nieuwe orders of eerdere orders, maakt niet zoveel uit. Het gaat om een test: zien de klanten de juiste producten, prijzen, info die ze nodig hebben? Check ook of de orders goed jouw ERP systeem in komen en of de orderbevestigingen bij de juiste persoon terecht komen.
+Start met een paar klanten waar je een goede relatie mee hebt. Vraag ze een account aan te maken (via /create-account) en een paar orders in te voeren. Het gaat om een test: zien ze de juiste producten, prijzen, info die ze nodig hebben? 
+
+Check ook of de orders goed in je ERP systeem komen en of je de orderbevestiging per mail ontvangt.
 
 Als dat goed gaat en eventuele plooitjes zijn gladgestreken, dan kun je een grotere groep toegang geven.
 

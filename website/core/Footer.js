@@ -37,38 +37,36 @@ class Footer extends React.Component {
           </a>
           <div>
             <h5>Docs</h5>
-            <a href={this.docUrl('doc1.html', this.props.language)}>
+            <a href={this.docUrl('doc1', this.props.language)}>
               Starten met OrderField
             </a>
+           {/*
             <a href={this.docUrl('doc2.html', this.props.language)}>
               Guides
             </a>
-            <a href={this.docUrl('doc3.html', this.props.language)}>
+           */}
+            <a href={this.docUrl('doc20', this.props.language)}>
               API Reference
             </a>
           </div>
           <div>
             <h5>Community</h5>
-            <a href={this.pageUrl('users.html', this.props.language)}>
+           {/* <a href={this.pageUrl('users.html', this.props.language)}>
               User Showcase
             </a>
             <a
-              href="http://stackoverflow.com/questions/tagged/"
+              href="http://stackoverflow.com/questions/tagged/orderfield"
               target="_blank"
               rel="noreferrer noopener">
               Stack Overflow
-            </a>
-            <a href="https://discordapp.com/">Project Chat</a>
-            <a
-              href="https://twitter.com/"
-              target="_blank"
-              rel="noreferrer noopener">
-              Twitter
-            </a>
+          </a>*/}
+
+            <a href="https://iconum.slack.com/">Project Chat</a>
           </div>
           <div>
             <h5>More</h5>
             <a href={`${this.props.config.baseUrl}blog`}>Blog</a>
+            {/*
             <a href="https://github.com/">GitHub</a>
             <a
               className="github-button"
@@ -79,7 +77,7 @@ class Footer extends React.Component {
               data-count-aria-label="# stargazers on GitHub"
               aria-label="Star this project on GitHub">
               Star
-            </a>
+            </a>*/}
           </div>
         </section>
         <section className="copyright">{this.props.config.copyright}</section>
