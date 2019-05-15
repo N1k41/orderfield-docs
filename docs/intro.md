@@ -11,56 +11,15 @@ OrderField geeft je klanten en sales reps de mogelijkheid om **bestellingen te p
 
 OrderField wordt gebruikt door fabrikanten en groothandels in uiteenlopende branches waaronder Sport, Fashion, Food en Home Deco. 
 
-## Aansluiten op OrderField
+## Starten met OrderField
 
-Aansluiten op OrderField bestaat grofweg uit onderstaande stappen:
+Start met OrderField in twee eenvoudige stappen:
 
-* ERP data
-    * Eerste ERP dataset aanleveren
-    * Analyse ERP dataset - welke ERP data is er en hoe ziet dat eruit
-    * Uitwisseling - waar komt de ERP data vandaan, op welke manier wisselen we data uit (via api, files of iets anders)
+1. Lever ERP data aan
+2. Bepaal je opties
 
-    [Meer over ERP data](erpdata.md)
+**Lever vrijblijvend je (voorbeeld) data aan.** Zodra je data bij ons binnen is, checken we hoe de data eruit ziet en bespreken we je wensen met je. Op basis daarvan bepalen we samen met jou hoe we je zsm. kunnen aansluiten.
 
-* Order data
-    * Inhoud orders - wat moet er in de order staan zodat deze kan worden geimporteerd in het ERP systeem
-    * Uitwisseling - waar moeten de orders naartoe, op welke manier wisselen we data uit (via api, files of iets anders)
+>Inrichten van OrderField is afhankelijk van de complexiteit van de data en de gewenste opties. Met eenvoudige, cleane data ben je in no time up and running.
 
-    [Meer over Order data](orders.md)
-
-* Data inrichten (basis)
-    * Eerste dataset 'vertalen' naar het datamodel van OrderField
-        * Inrichten klanten, assortimenten en prijzen
-        * Indelen catalogus
-        * Indelen filters
-        * Inrichten productinformatie 
-    * Testen
-    * Eerste orders opbouwen en aanleveren (nog niet automatisch)
-    * Finetunen
-
-* Configuratie 
-    * Bepalen welke opties er gebruikt gaan worden
-    * Data-inrichting daarop aanpassen
-    * Logo en kleurstelling
-    * Banner op homepage en categorie-pagina's 
-    * Testen
-    * Finetunen
-
-* Data uitwisseling op gang brengen
-    * ERP data uitwisseling opzetten
-    * Order uitwisseling opzetten
-
-* Intern uitrollen / testen
-    * Medewerkers toegang geven
-    * Feedback vragen
-    * Finetunen
-
-* Testen met klanten
-    * Eerste klanten toegang geven
-    * Feedback vragen
-    * Finetunen
-
-* Uitrollen
-    * Meerdere (of alle) klanten toegang geven
-    * Feedback vragen
-    * Finetunen
+Benieuwd naar een demo? Mail ons op [info@orderfield.com](mailto:info@orderfield.com)

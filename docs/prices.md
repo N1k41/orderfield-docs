@@ -1,5 +1,5 @@
 ---
-id: doc5
+id: prices
 title: Prijzen
 sidebar_label: Prijzen
 ---
