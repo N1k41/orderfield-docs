@@ -1,5 +1,5 @@
 ---
-id: doc2
+id: erpdata
 title: ERP Data
 sidebar_label: ERP Data
 ---

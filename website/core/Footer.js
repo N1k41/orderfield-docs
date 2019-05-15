@@ -37,21 +37,23 @@ class Footer extends React.Component {
           </a>
           <div>
             <h5>Docs</h5>
-            <a href={this.docUrl('doc1', this.props.language)}>
+            <a href={this.docUrl('intro')}>
+            {/*<a href={this.docUrl('intro', this.props.language)}></a>*/}
               Starten met OrderField
             </a>
            {/*
             <a href={this.docUrl('doc2.html', this.props.language)}>
               Guides
             </a>
-           */}
-            <a href={this.docUrl('doc20', this.props.language)}>
+           
+            <a href={this.docUrl('api', this.props.language)}>
               API Reference
             </a>
+            */}
           </div>
-          <div>
+           <div>
             <h5>Community</h5>
-           {/* <a href={this.pageUrl('users.html', this.props.language)}>
+            {/*<a href={this.pageUrl('users.html', this.props.language)}>
               User Showcase
             </a>
             <a
@@ -64,9 +66,12 @@ class Footer extends React.Component {
             <a href="https://iconum.slack.com/">Project Chat</a>
           </div>
           <div>
+            
             <h5>More</h5>
+            <a href="mailto:info@orderfield.com">Contact</a>
+             {/*
             <a href={`${this.props.config.baseUrl}blog`}>Blog</a>
-            {/*
+           
             <a href="https://github.com/">GitHub</a>
             <a
               className="github-button"

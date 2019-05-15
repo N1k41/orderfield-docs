@@ -38,10 +38,10 @@ const siteConfig = {
 
   // For no header links in the top nav bar -> headerLinks: [],
   headerLinks: [
-    {doc: 'doc1', label: 'Docs'},
-    {doc: 'doc20', label: 'API'},
+    {doc: 'intro', label: 'Docs'},
+    /*{doc: 'api', label: 'API'},
     {page: 'help', label: 'Help'},
-    {blog: true, label: 'Blog'},
+    {blog: true, label: 'Blog'},*/
   ],
 
   // If you have users set above, you add it here:
@@ -87,6 +87,12 @@ const siteConfig = {
   onPageNav: 'separate',
   // No .html extensions for paths.
   cleanUrl: true,
+
+  // Add cname to build (automatically)
+  cname: 'docs.orderfield.com',
+
+  // Set this field to '' to remove the docs prefix of the documentation URL.
+  // docsUrl: '',
 
   // Open Graph and Twitter card images.
   ogImage: 'img/undraw_online.svg',

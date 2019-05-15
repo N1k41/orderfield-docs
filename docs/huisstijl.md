@@ -1,5 +1,5 @@
 ---
-id: doc3
+id: huisstijl
 title: Huisstijl
 sidebar_label: Huisstijl
 ---
