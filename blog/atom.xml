@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>https://docs.orderfield.com/orderfield-documentation-gh-pages/blog</id>
+    <id>https://docs.orderfield.com/orderfield-documentation/blog</id>
     <title>OrderField Documentation Blog</title>
     <updated>2019-05-06T06:00:00Z</updated>
     <generator>Feed for Node.js</generator>
-    <link rel="alternate" href="https://docs.orderfield.com/orderfield-documentation-gh-pages/blog"/>
+    <link rel="alternate" href="https://docs.orderfield.com/orderfield-documentation/blog"/>
     <subtitle>The best place to stay up-to-date with the latest OrderField Documentation news and events.</subtitle>
-    <logo>https://docs.orderfield.com/orderfield-documentation-gh-pages/img/favicon.ico</logo>
+    <logo>https://docs.orderfield.com/orderfield-documentation/img/favicon.ico</logo>
     <rights>Copyright © 2019 OrderField</rights>
     <entry>
         <title type="html"><![CDATA[New App Version]]></title>
-        <id>https://docs.orderfield.com/orderfield-documentation-gh-pages/blog/2019/05/06/new-app-version.html</id>
-        <link href="https://docs.orderfield.com/orderfield-documentation-gh-pages/blog/2019/05/06/new-app-version.html">
+        <id>https://docs.orderfield.com/orderfield-documentation/blog/2019/05/06/new-app-version.html</id>
+        <link href="https://docs.orderfield.com/orderfield-documentation/blog/2019/05/06/new-app-version.html">
         </link>
         <updated>2019-05-06T06:00:00Z</updated>
         <summary type="html"><![CDATA[<p>After succesfully testing our app prototype in production, we are now refactoring and rebuilding the app in Ionic 4.0</p> ]]></summary>
@@ -22,8 +22,8 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[Starten met Docs]]></title>
-        <id>https://docs.orderfield.com/orderfield-documentation-gh-pages/blog/2019/05/04/starting-with-docs.html</id>
-        <link href="https://docs.orderfield.com/orderfield-documentation-gh-pages/blog/2019/05/04/starting-with-docs.html">
+        <id>https://docs.orderfield.com/orderfield-documentation/blog/2019/05/04/starting-with-docs.html</id>
+        <link href="https://docs.orderfield.com/orderfield-documentation/blog/2019/05/04/starting-with-docs.html">
         </link>
         <updated>2019-05-04T06:00:00Z</updated>
         <summary type="html"><![CDATA[<p>Starten met documentatie.</p> ]]></summary>
