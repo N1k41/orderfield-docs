@@ -2,28 +2,28 @@
 <rss version="2.0">
     <channel>
         <title>OrderField Documentation Blog</title>
-        <link>https://n1k41.github.io/orderfield-documentation/blog</link>
+        <link>https://docs.orderfield.com/orderfield-documentation/blog</link>
         <description>The best place to stay up-to-date with the latest OrderField Documentation news and events.</description>
         <lastBuildDate>Mon, 06 May 2019 06:00:00 GMT</lastBuildDate>
         <docs>http://blogs.law.harvard.edu/tech/rss</docs>
         <generator>Feed for Node.js</generator>
         <image>
             <title>OrderField Documentation Blog</title>
-            <url>https://n1k41.github.io/orderfield-documentation/img/favicon.ico</url>
-            <link>https://n1k41.github.io/orderfield-documentation/blog</link>
+            <url>https://docs.orderfield.com/orderfield-documentation/img/favicon.ico</url>
+            <link>https://docs.orderfield.com/orderfield-documentation/blog</link>
         </image>
         <copyright>Copyright © 2019 OrderField</copyright>
         <item>
             <title><![CDATA[New App Version]]></title>
-            <link>https://n1k41.github.io/orderfield-documentation/blog/2019/05/06/new-app-version.html</link>
-            <guid>https://n1k41.github.io/orderfield-documentation/blog/2019/05/06/new-app-version.html</guid>
+            <link>https://docs.orderfield.com/orderfield-documentation/blog/2019/05/06/new-app-version.html</link>
+            <guid>https://docs.orderfield.com/orderfield-documentation/blog/2019/05/06/new-app-version.html</guid>
             <pubDate>Mon, 06 May 2019 06:00:00 GMT</pubDate>
             <description><![CDATA[<p>After succesfully testing our app prototype in production, we are now refactoring and rebuilding the app in Ionic 4.0</p> ]]></description>
         </item>
         <item>
             <title><![CDATA[Starten met Docs]]></title>
-            <link>https://n1k41.github.io/orderfield-documentation/blog/2019/05/04/starting-with-docs.html</link>
-            <guid>https://n1k41.github.io/orderfield-documentation/blog/2019/05/04/starting-with-docs.html</guid>
+            <link>https://docs.orderfield.com/orderfield-documentation/blog/2019/05/04/starting-with-docs.html</link>
+            <guid>https://docs.orderfield.com/orderfield-documentation/blog/2019/05/04/starting-with-docs.html</guid>
             <pubDate>Sat, 04 May 2019 06:00:00 GMT</pubDate>
             <description><![CDATA[<p>Starten met documentatie.</p> ]]></description>
         </item>
