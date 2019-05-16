@@ -67,9 +67,10 @@ class Footer extends React.Component {
           </div>
           <div>
             
-            <h5>More</h5>
-            <a href="mailto:info@orderfield.com">Contact</a>
+            <h5>Meer</h5>
             <a href={this.docUrl('about')}>Over OrderField</a>
+            <a href="mailto:info@orderfield.com">Contact</a>
+
              {/*
             <a href={`${this.props.config.baseUrl}blog`}>Blog</a>
            
