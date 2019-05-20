@@ -1,6 +1,6 @@
 ---
 id: app
-title: OrderField app
+title: OrderField App
 sidebar_label: App
 ---
 
@@ -19,6 +19,6 @@ Sales reps:
 * Kunnen alles wat een klant kan
 * Bestellen voor meerdere klanten
 * Hebben inzicht in (toekomstige) voorraad
-* Kunnen prijzen aanpassen
+* Kunnen prijzen aanpassen en verbergen
 * Kunnen afwijken van de standaard besteleenheden
 * Kunnen het ordertype bepalen (bijv. order of offerte)
