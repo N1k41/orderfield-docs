@@ -7,7 +7,9 @@ sidebar_label: Over OrderField
 ## B2B e-commerce
 OrderField is het b2b e-commerce platform van Iconum. Sinds 2002 ondersteunen wij organisaties bij het realiseren van marketingdoelstellingen door middel van e-commerce websites, B2B/B2C webshops en Enterprise Apps. 
 
-Onze applicaties verwerken duizenden orders per maand voor miljoenen euro's, dollars, ponden en złoty.
+Onze applicaties verwerken duizenden orders per maand voor miljoenen euro's, dollars, ponden en złoty. Op basis van de feedback van onze gebruikers verbeteren we de applicaties continue.
+
+Van hieruit is OrderField ontstaan; een krachtig, generiek, schaalbaar b2b e-commerce platform, waar fabrikanten en groothandels eenvoudig op kunnen aansluiten en waarmee hun klanten kunnen bestellen via app en web.
 
 ## De kracht van eenvoud
 Wij geloven in de kracht van eenvoud. Onze ervaring is, dat hoe eenvoudiger we iets maken voor klanten, hoe beter en succesvoller het is. We gaan dus altijd voor simpel, duidelijk en gebruiksvriendelijk. In onze aanpak staan de **gebruiker** en het **resultaat** centraal.

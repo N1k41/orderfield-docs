@@ -16,6 +16,6 @@ Categorieen kunnen ook als blocks op de homepage (app en web) worden geplaatst.
 ![homeblocks](assets/homeblocks.png)
 
 ## Filters
-Filters kunnen worden ingericht op basis van productkenmerken.
+Filters kunnen worden ingericht op basis van [productkenmerken](erpdata#product.facets).
 
 ![filter](assets/filters.png)

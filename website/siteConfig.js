@@ -95,6 +95,9 @@ const siteConfig = {
   // Set this field to '' to remove the docs prefix of the documentation URL.
   // docsUrl: '',
 
+  // Google Analytics
+  gaTrackingId: 'UA-140657262-1',
+
   // Open Graph and Twitter card images.
   ogImage: 'img/undraw_online.svg',
   twitterImage: 'img/undraw_tweetstorm.svg',
