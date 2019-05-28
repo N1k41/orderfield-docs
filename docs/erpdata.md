@@ -26,8 +26,8 @@ Klanten hebben doorgaans onderstaande attributes
 | <a name="customer.blocked"></a>blocked | <span style="color:orange">**Optional** </span> <br />Indicates the customer is  blocked <br /><br />**Example** <br /> <span style="color:green">true</span><br/><br /> **Syntax** <br /> <span style="color:green">true ; false</span><br/><span style="color:green">1 ; 0</span> |<ul><li>Blocked customers are not allowed to login or create user accounts</li></ul>|
 | <a name="customer.showprices"></a>showprices | <span style="color:orange">**Optional** </span> <br />Indicates the customer is allowed to see prices<br /><br />**Example** <br /> <span style="color:green">true</span><br/><br /> **Syntax** <br /> <span style="color:green">true ; false</span><br/><span style="color:green">1 ; 0</span> |<ul><li>For (potential) customers that are allowed to view the products without prices or the ability place orders</li></ul>|
 | <a name="customer.minOrderValue"></a>minOrderValue | <span style="color:orange">**Optional** </span> <br />Minimum order value <br /><br />**Example** <br /> <span style="color:green">360</span><br/><br /> **Syntax** <br /> Numeric |<ul><li>Orders below this value can not be submitted</li></ul>|
-
-
+| <a name="customer.customergroups"></a>customergroups | <span style="color:orange">**Optional** </span> <br />The customer group(s) of the customer<br /><br />**Example** <br /> <span style="color:green">["country_10", "customergroup_9999"] </span><br/><br /> **Syntax** <br /> Max 50 characters per customergroup ||
+| <a name="customer.pricegroups"></a>pricegroups | <span style="color:orange">**Optional** </span> <br />The price group(s) of the customer<br /><br />**Example** <br /> <span style="color:green">["retail_eu", "export"] </span><br/><br /> **Syntax** <br /> Max 50 characters per pricegroup |<ul><li>Pricegroups can be applied to any number of customers</li></ul>|
 
 ## Producten
 Productdata bestaat uit een aantal standaard gegevens

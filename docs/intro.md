@@ -23,12 +23,13 @@ Jouw geregistreerde klanten kunnen een account aanmaken en hebben toegang tot de
 * Inzicht in - en bestellen vanuit - eerdere orders
 * Favorietenlijst samenstellen
 
-Klantspecifieke settings:
+Klant(groep) specifieke settings:
 
-* Meerdere afleveradressen per klant
+* Meerdere afleveradressen
 * Specifieke leverdagen (bijv. maandag en donderdag)
-* Minimum orderwaarde per klant
-* Kortingen per klant
+* Minimum orderwaarde
+* Kortingen
+* Gepersonaliseerde prijsstaffels
 
 
 ## Sales reps
