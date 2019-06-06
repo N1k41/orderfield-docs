@@ -2,4 +2,4 @@
 
 Documentation for OrderField, using Docusaurus.
 
-Docs for OrderField are publised on https://docs.orderfield.com
+Docs for OrderField are published on https://docs.orderfield.com
