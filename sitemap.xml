@@ -20,6 +20,7 @@
 <url> <loc>https://docs.orderfield.com/docs/onboarding-1</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="https://docs.orderfield.com/docs/onboarding-1" /> </url>
 <url> <loc>https://docs.orderfield.com/docs/orders-1</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="https://docs.orderfield.com/docs/orders-1" /> </url>
 <url> <loc>https://docs.orderfield.com/docs/orders</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="https://docs.orderfield.com/docs/orders" /> </url>
+<url> <loc>https://docs.orderfield.com/docs/pages</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="https://docs.orderfield.com/docs/pages" /> </url>
 <url> <loc>https://docs.orderfield.com/docs/prices</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="https://docs.orderfield.com/docs/prices" /> </url>
 <url> <loc>https://docs.orderfield.com/docs/pricing</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="https://docs.orderfield.com/docs/pricing" /> </url>
 <url> <loc>https://docs.orderfield.com/docs/reference</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="https://docs.orderfield.com/docs/reference" /> </url>
