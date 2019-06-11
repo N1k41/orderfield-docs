@@ -9,7 +9,7 @@
 <url> <loc>https://docs.orderfield.com/docs/about</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="https://docs.orderfield.com/docs/about" /> </url>
 <url> <loc>https://docs.orderfield.com/docs/api</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="https://docs.orderfield.com/docs/api" /> </url>
 <url> <loc>https://docs.orderfield.com/docs/app</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="https://docs.orderfield.com/docs/app" /> </url>
-<url> <loc>https://docs.orderfield.com/docs/settings</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="https://docs.orderfield.com/docs/settings" /> </url>
+<url> <loc>https://docs.orderfield.com/docs/attributes</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="https://docs.orderfield.com/docs/attributes" /> </url>
 <url> <loc>https://docs.orderfield.com/docs/catalogus</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="https://docs.orderfield.com/docs/catalogus" /> </url>
 <url> <loc>https://docs.orderfield.com/docs/deliverydates</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="https://docs.orderfield.com/docs/deliverydates" /> </url>
 <url> <loc>https://docs.orderfield.com/docs/erpdata</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="https://docs.orderfield.com/docs/erpdata" /> </url>

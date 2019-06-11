@@ -1,0 +1,107 @@
+<!DOCTYPE html><html lang="en"><head><meta charSet="utf-8"/><meta http-equiv="X-UA-Compatible" content="IE=edge"/><title>Attributes · OrderField Documentation</title><meta name="viewport" content="width=device-width"/><meta name="generator" content="Docusaurus"/><meta name="description" content="&lt;p&gt;The following attributes can be used to configure an OrderField instance.&lt;/p&gt;
+"/><meta name="docsearch:language" content="en"/><meta property="og:title" content="Attributes · OrderField Documentation"/><meta property="og:type" content="website"/><meta property="og:url" content="https://docs.orderfield.com/"/><meta property="og:description" content="&lt;p&gt;The following attributes can be used to configure an OrderField instance.&lt;/p&gt;
+"/><meta property="og:image" content="https://docs.orderfield.com/img/undraw_online.svg"/><meta name="twitter:card" content="summary"/><meta name="twitter:image" content="https://docs.orderfield.com/img/undraw_tweetstorm.svg"/><link rel="shortcut icon" href="/img/favicon.ico"/><link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/default.min.css"/><script>
+              (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+              (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+              m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+              })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+              ga('create', 'UA-140657262-1', 'auto');
+              ga('send', 'pageview');
+            </script><script type="text/javascript" src="https://buttons.github.io/buttons.js"></script><script src="/js/scrollSpy.js"></script><link rel="stylesheet" href="/css/main.css"/><script src="/js/codetabs.js"></script></head><body class="sideNavVisible separateOnPageNav"><div class="fixedHeaderContainer"><div class="headerWrapper wrapper"><header><a href="/"><img class="logo" src="/img/favicon.ico" alt="OrderField Documentation"/><h2 class="headerTitleWithLogo">OrderField Documentation</h2></a><div class="navigationWrapper navigationSlider"><nav class="slidingNav"><ul class="nav-site nav-site-internal"><li class="siteNavGroupActive"><a href="/docs/intro" target="_self">Docs</a></li><li class=""><a href="/docs/app" target="_self">App</a></li></ul></nav></div></header></div></div><div class="navPusher"><div class="docMainWrapper wrapper"><div class="container docsNavContainer" id="docsNav"><nav class="toc"><div class="toggleNav"><section class="navWrapper wrapper"><div class="navBreadcrumb wrapper"><div class="navToggle" id="navToggler"><div class="hamburger-menu"><div class="line1"></div><div class="line2"></div><div class="line3"></div></div></div><h2><i>›</i><span>Configuration</span></h2><div class="tocToggler" id="tocToggler"><i class="icon-toc"></i></div></div><div class="navGroups"><div class="navGroup"><h3 class="navGroupCategoryTitle">Starten met OrderField</h3><ul class=""><li class="navListItem"><a class="navItem" href="/docs/intro">Introductie</a></li><li class="navListItem"><a class="navItem" href="/docs/erpdata">ERP Data</a></li><li class="navListItem"><a class="navItem" href="/docs/orders">Orders</a></li></ul></div><div class="navGroup"><h3 class="navGroupCategoryTitle">Opties</h3><ul class=""><li class="navListItem"><a class="navItem" href="/docs/catalogus">Catalogusindeling</a></li><li class="navListItem"><a class="navItem" href="/docs/orders-1">Order types</a></li><li class="navListItem"><a class="navItem" href="/docs/stock-1">Toekomstige voorraad</a></li><li class="navListItem"><a class="navItem" href="/docs/languages">Talen</a></li><li class="navListItem"><a class="navItem" href="/docs/deliverydates">Leverdagen</a></li><li class="navListItem"><a class="navItem" href="/docs/huisstijl">Huisstijl</a></li></ul></div><div class="navGroup"><h3 class="navGroupCategoryTitle">Configuration</h3><ul class=""><li class="navListItem navListItemActive"><a class="navItem" href="/docs/attributes">Attributes</a></li><li class="navListItem"><a class="navItem" href="/docs/pages">Pages</a></li></ul></div></div></section></div><script>
+            var coll = document.getElementsByClassName('collapsible');
+            var checkActiveCategory = true;
+            for (var i = 0; i < coll.length; i++) {
+              var links = coll[i].nextElementSibling.getElementsByTagName('*');
+              if (checkActiveCategory){
+                for (var j = 0; j < links.length; j++) {
+                  if (links[j].classList.contains('navListItemActive')){
+                    coll[i].nextElementSibling.classList.toggle('hide');
+                    coll[i].childNodes[1].classList.toggle('rotate');
+                    checkActiveCategory = false;
+                    break;
+                  }
+                }
+              }
+
+              coll[i].addEventListener('click', function() {
+                var arrow = this.childNodes[1];
+                arrow.classList.toggle('rotate');
+                var content = this.nextElementSibling;
+                content.classList.toggle('hide');
+              });
+            }
+
+            document.addEventListener('DOMContentLoaded', function() {
+              createToggler('#navToggler', '#docsNav', 'docsSliderActive');
+              createToggler('#tocToggler', 'body', 'tocActive');
+
+              var headings = document.querySelector('.toc-headings');
+              headings && headings.addEventListener('click', function(event) {
+                var el = event.target;
+                while(el !== headings){
+                  if (el.tagName === 'A') {
+                    document.body.classList.remove('tocActive');
+                    break;
+                  } else{
+                    el = el.parentNode;
+                  }
+                }
+              }, false);
+
+              function createToggler(togglerSelector, targetSelector, className) {
+                var toggler = document.querySelector(togglerSelector);
+                var target = document.querySelector(targetSelector);
+
+                if (!toggler) {
+                  return;
+                }
+
+                toggler.onclick = function(event) {
+                  event.preventDefault();
+
+                  target.classList.toggle(className);
+                };
+              }
+            });
+        </script></nav></div><div class="container mainContainer"><div class="wrapper"><div class="post"><header class="postHeader"><h1 class="postHeaderTitle">Attributes</h1></header><article><div><span><p>The following attributes can be used to configure an OrderField instance.</p>
+<h2><a class="anchor" aria-hidden="true" id="tenant-attributes"></a><a href="#tenant-attributes" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Tenant attributes</h2>
+<p>Collection: <em>tenant &gt; tenant__settings</em></p>
+<table>
+<thead>
+<tr><th>Attribute</th><th>Format</th><th>Remarks</th></tr>
+</thead>
+<tbody>
+<tr><td><span style="color:green">ga_tracking_id</span></td><td><span style="color:orange"><strong>Optional</strong> </span> <br />GA Tracking ID</span><br /><br /><strong>Example</strong> <br /> <span style="color:green">{&quot;key&quot; : &quot;ga_tracking_id&quot;, &quot;value&quot; : &quot;UA-87774626-1&quot;}</span></td><td></td></tr>
+<tr><td><span style="color:green">gtm_tracking_id</span></td><td><span style="color:orange"><strong>Optional</strong> </span> <br />GTM Tracking ID</span><br /><br /><strong>Example</strong> <br /> <span style="color:green">{&quot;key&quot; : &quot;gtm_tracking_id&quot;, &quot;value&quot; : &quot;UA-87774626-1&quot;}</span></td><td></td></tr>
+<tr><td><span style="color:green">quantity_picker</span></td><td><span style="color:orange"><strong>Optional</strong> </span><br/>Indicates which quantity picker should be used</span> <br/><br/><strong>Example</strong> <br /> <span style="color:green">{&quot;key&quot; : &quot;quantity_picker&quot;, &quot;value&quot; : &quot;relative&quot;}</span><br/><br/><strong>Syntax</strong><br><span style="color:green">absolute</span> (default) ; <span style="color:green">relative</span></td><td><ul><li><span style="color:green">absolute</span><br/>shows the absolute quantity and uses that value for calculations (e.g. 1 box of 12 pieces -&gt; 12 pieces)</li><li><span style="color:green">relative</span><br/>shows the number of sales units and uses that value for calculations (e.g. 1 box of 12 pieces -&gt; 1 box) </li></ul></td></tr>
+<tr><td><span style="color:green">MAIL_ORDER_CONFIRMATION</span></td><td><span style="color:orange"><strong>Optional</strong> </span> <br />Settings of the order confirmation emails <br /><br /><strong>Sub-attributes</strong> <br /><ul><li><span style="color:green">mail_from</span><br/>From-address</li><li><span style="color:green">mail_cc</span> (array)<br/>CC to </li><li><span style="color:green">mail_bcc</span> (array)<br/>BCC to</li><li><span style="color:green">default_template_id</span><br/>Postmark template ID</li><li><span style="color:green">template_ids</span> (array)<br/>Postmark template ID per language</li><li><span style="color:green">logo_url</span><br/>Logo URL</li><li><span style="color:green">mail_sender_name</span><br/>Name of the sender</li></ul></td><td><ul><li>If no settings are available, the default OrderField values are used</li></ul></td></tr>
+<tr><td><span style="color:green">show_breadcrumbs</span></td><td><span style="color:orange"><strong>Optional</strong> </span> <br />Indicates if breadcumbs should be shown<br /><br /><strong>Example</strong> <br /> <span style="color:green">{&quot;key&quot; : &quot;show_breadcrumbs&quot;,&quot;value&quot; : false,&quot;roles&quot; : []}</span><br/><br /> <strong>Syntax</strong> <br /> <span style="color:green">true</span> (default) ; <span style="color:green">false</span></td><td></td></tr>
+</tbody>
+</table>
+<h2><a class="anchor" aria-hidden="true" id="page-attributes"></a><a href="#page-attributes" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Page attributes</h2>
+<table>
+<thead>
+<tr><th>Attribute</th><th>Format</th><th>Remarks</th></tr>
+</thead>
+<tbody>
+<tr><td><a name="banner"></a><span style="color:green">banner</span></td><td>Banner settings for this page <br /><br /><strong>Sub-attributes</strong> <br /><ul><li><span style="color:green">img</span><br/>Image url</li><li><span style="color:green">title</span> <br/>Title </li><li><span style="color:green">subTitle</span> <br/>Subtitle</li><li><span style="color:green">buttonText</span><br/>Text in the button</li><li><span style="color:green">linkToPage</span> <br/>Link url</li></ul></td><td><ul><li>Title, subtitle and buttontext can be translated</li></ul></td></tr>
+<tr><td><a name="blocks"></a><span style="color:green">blocks</span></td><td>Block settings for this page <br /><br /><strong>Sub-attributes</strong> <br /><ul><li><span style="color:green">img</span><br/>Image url</li><li><span style="color:green">title</span> <br/>Title </li><li><span style="color:green">subTitle</span> <br/>Subtitle</li><li><span style="color:green">buttonText</span><br/>Text in the button</li><li><span style="color:green">linkToPage</span> <br/>Link url</li><li><span style="color:green">sortorder</span> <br/>Sort order of this block</li></ul></td><td><ul><li>Title, subtitle and buttontext can be translated</li></ul></td></tr>
+<tr><td><a name="showThumbnails"></a><span style="color:green">showThumbnails </span></td><td>Indicates that thumbnails of the product pictures should be shown<br /><br /><strong>Example</strong> <br /> <span style="color:green"> &quot;settings&quot; : [ {&quot;platform&quot; : &quot;all&quot;, &quot;key&quot; : &quot;showThumbnails&quot;, &quot;value&quot; : true} ]</span></td><td><strong>Applicable to</strong><ul><li><a href="/docs/pages#catalog-page">Catalog</a></li></ul></td></tr>
+<tr><td><a name="showFavoriteIcon"></a><span style="color:green">showFavoriteIcon </span></td><td>Indicates that favorite icons should be shown<br /><br /><strong>Example</strong> <br /> <span style="color:green"> &quot;settings&quot; : [ {&quot;platform&quot; : &quot;all&quot;, &quot;key&quot; : &quot;showFavoriteIcon&quot;, &quot;value&quot; : true} ]</span></td><td><strong>Applicable to</strong><ul><li><a href="/docs/pages#item-tile">Item tile</a></li><li><a href="/docs/pages#item-detail">Item detail</a></li></ul></td></tr>
+<tr><td><a name="showAttributes"></a><span style="color:green">showAttributes </span></td><td>Determines which attributes should be shown<br /><br /><strong>Example</strong> <br /> <span style="color:green"> &quot;settings&quot; : [ {&quot;platform&quot; : &quot;all&quot;, &quot;key&quot; : &quot;showAttributes&quot;, &quot;value&quot; : [ ]} ]</span></td><td><strong>Applicable to</strong><ul><li><a href="/docs/pages#item-detail">Item detail</a></li></ul></td></tr>
+<tr><td><a name="showFacets"></a><span style="color:green">showFacets </span></td><td>Determines which facets should be shown<br /><br /><strong>Example</strong> <br /> <span style="color:green"> &quot;settings&quot; : [ {&quot;platform&quot; : &quot;all&quot;, &quot;key&quot; : &quot;showFacets&quot;, &quot;value&quot; : [&quot;scent&quot;, &quot;color&quot;]} ]</span></td><td><strong>Applicable to</strong><ul><li><a href="/docs/pages#item-detail">Item detail</a></li></ul></td></tr>
+<tr><td><a name="facetgroups"></a><span style="color:green">facetgroups </span></td><td>Determines which facetgroups should be shown as filters<br /><br /><strong>Example</strong> <br /> <span style="color:green">&quot;facetgroups&quot; : [&quot;scent&quot;, &quot;color&quot;,&quot;season&quot;,&quot;usage&quot;]</span></td><td><strong>Applicable to</strong><ul><li><a href="/docs/pages#catalog">Catalog</a></li><li><a href="/docs/pages#favorites">Favorites</a></li><li><a href="/docs/pages#search">Search</a></li></ul></td></tr>
+<tr><td><a name="showSalesOrderAddressInfo"></a><span style="color:green">showSalesOrderAddressInfo  </span></td><td>Set this to <span style="color:green">false</span> if no delivery address info is available for previous orders. The previous orders will then be shown in a more compact list.<br /><br /><strong>Example</strong> <br /> <span style="color:green"> &quot;settings&quot; : [ {&quot;platform&quot; : &quot;all&quot;, &quot;key&quot; : &quot;showSalesOrderAddressInfo&quot;, &quot;value&quot; : true} ]</span></td><td><strong>Applicable to</strong><ul><li><a href="/docs/pages#item-detail">Item detail</a></li></ul></td></tr>
+<tr><td><a name="showDeliveryColumn"></a><span style="color:green">showDeliveryColumn  </span></td><td>Determines if delivery column is shown<br /><br /><strong>Example</strong> <br /> <span style="color:green"> &quot;settings&quot; : [ {&quot;platform&quot; : &quot;all&quot;, &quot;key&quot; : &quot;showDeliveryColumn&quot;, &quot;value&quot; : true} ]</span></td><td><strong>Applicable to</strong><ul><li><a href="/docs/pages#checkout">Checkout</a></li></ul></td></tr>
+<tr><td><a name="showTermsAndConditionsCheckbox"></a><span style="color:green">showTermsAndConditionsCheckbox  </span></td><td>Determines if terms &amp; conditions checkbox is shown<br /><br /><strong>Example</strong> <br /> <span style="color:green"> &quot;settings&quot; : [ {&quot;platform&quot; : &quot;all&quot;, &quot;key&quot; : &quot;showTermsAndConditionsCheckbox&quot;, &quot;value&quot; : true} ]</span></td><td><strong>Applicable to</strong><ul><li><a href="/docs/pages#checkout">Checkout</a></li></ul></td></tr>
+<tr><td><a name="customerReferenceMaxLength"></a><span style="color:green">customerReferenceMaxLength  </span></td><td>Determines max length of the reference field<br /><br /><strong>Example</strong> <br /> <span style="color:green"> &quot;settings&quot; : [ {&quot;platform&quot; : &quot;all&quot;, &quot;key&quot; : &quot;customerReferenceMaxLength&quot;, &quot;value&quot; : 25} ]</span></td><td><strong>Applicable to</strong><ul><li><a href="/docs/pages#checkout">Checkout</a></li></ul></td></tr>
+<tr><td><a name="showUomInfoForUoms"></a><span style="color:green">showUomInfoForUoms </span></td><td>Determines to which customer group the pallet calculation is shown<br /><br /><strong>Example</strong> <br /> <span style="color:green"> &quot;settings&quot; : [ {&quot;platform&quot; : &quot;all&quot;, &quot;key&quot; : &quot;showUomInfoForUoms &quot;, &quot;value&quot; :  [&quot;PL&quot;]} ]</span></td><td><strong>Applicable to</strong><ul><li><a href="/docs/pages#checkout">Checkout</a></li></ul></td></tr>
+<tr><td><a name="showOrderType"></a><span style="color:green">showOrderType </span></td><td>Determines if Order Type choice is shown<br /><br /><strong>Example</strong> <br /> <span style="color:green"> &quot;settings&quot; : [ {&quot;platform&quot; : &quot;all&quot;, &quot;key&quot; : &quot;showOrderType&quot;, &quot;value&quot; : false} ]</span></td><td><strong>Applicable to</strong><ul><li><a href="/docs/pages#checkout">Checkout</a></li></ul></td></tr>
+</tbody>
+</table>
+<h2><a class="anchor" aria-hidden="true" id="customer-group-attributes"></a><a href="#customer-group-attributes" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Customer (group) attributes</h2>
+<p><a href="/docs/erpdata#klanten">See ERP data</a></p>
+<h2><a class="anchor" aria-hidden="true" id="user-settings"></a><a href="#user-settings" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>User settings</h2>
+<p><em>todo</em></p>
+</span></div></article></div><div class="docs-prevnext"><a class="docs-prev button" href="/docs/huisstijl"><span class="arrow-prev">← </span><span>Huisstijl</span></a><a class="docs-next button" href="/docs/pages"><span>Pages</span><span class="arrow-next"> →</span></a></div></div></div><nav class="onPageNav"><ul class="toc-headings"><li><a href="#tenant-attributes">Tenant attributes</a></li><li><a href="#page-attributes">Page attributes</a></li><li><a href="#customer-group-attributes">Customer (group) attributes</a></li><li><a href="#user-settings">User settings</a></li></ul></nav></div><footer class="nav-footer" id="footer"><section class="sitemap"><a href="/" class="nav-home"><img src="/img/favicon.ico" alt="OrderField Documentation" width="66" height="58"/></a><div><h5>Docs</h5><a href="/docs/intro">Starten met OrderField</a></div><div><h5>Community</h5><a href="https://iconum.slack.com/">Project Chat</a></div><div><h5>Meer</h5><a href="/docs/about">Over OrderField</a><a href="mailto:info@orderfield.com">Contact</a></div></section><section class="copyright">Copyright © 2019 OrderField</section></footer></div></body></html>
