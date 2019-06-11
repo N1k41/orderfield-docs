@@ -4,20 +4,18 @@ title: Pages
 sidebar_label: Pages
 ---
 
-## Default pages
-
 The following default pages can be configured in OrderField:
 
-- [Home](#home-page) (<span style="color:green">home</span>)
-- [Catalog page](#catalog-page) (<span style="color:green">catalog</span>)
-    - Item tile <span style="color:green">item_catalog</span>
-    - Item detail page <span style="color:green">item_details</span>
-- Favorites <span style="color:green">favorites</span>
-- Orderhistory <span style="color:green">orderhistory</span>
-- Checkout <span style="color:green">checkout</span>
-- Search <span style="color:green">search</span>
+- [Home](#home)
+- [Catalog](#catalog) 
+    - [Item tile](#item-tile)
+    - [Item detail](#item-detail) 
+- [Favorites](#favorites)
+- [Orderhistory](#orderhistory)
+- [Checkout](#checkout)
+- [Search](#search)
 
-## Home page
+## Home
 
 *Basic configuration*
 ```json
@@ -30,11 +28,11 @@ The following default pages can be configured in OrderField:
 }
 ```
 
-*Available options*
-- Banner (one)
-- Blocks (multiple)
+*Attributes*
+- [banner](attributes.md#banner)
+- [blocks](attributes.md#blocks)
 
-## Catalog page
+## Catalog
 
 *Basic configuration*
 ```json
@@ -46,38 +44,112 @@ The following default pages can be configured in OrderField:
     "type" : "catalog"
 }
 ```
+*Attributes*
+- [showThumbnails](attributes.md#showThumbnails)
+- [facetgroups](attributes.md#facetgroups)
+- [banner](attributes.md#banner)
 
-*Available options*
-- Banner (one)
-- Facetgroups
+## Item tile
+Determines the content of tiles shown on the catalog page
 
-
-Setting
-ShowThumbnails
-
-*Sub pages*
-- Item tile <span style="color:green">item_catalog</span>
-- Item detail page <span style="color:green">item_details</span>
-
-
-
-
-##Items in catalog page
-code: item_catalog
-
-*Available settings*
-- showThumbnails
-- 
-
-*Content*
-- facetgroups
+*Basic configuration*
+```json
+{
+    "code" : "item_catalog",
+    "i18n" : [],
+    "name" : "Item catalog",
+    "sortOrder" : 1,
+    "type" : "catalog"
+}
+```
+*Attributes*
+- [showFavoriteIcon](attributes.md#showFavoriteIcon)
+- [showAttributes](attributes.md#showAttributes)
+- [showFacets](attributes.md#showFacets)
 
 
-Page settings
-- 
+## Item details
+Determines the content of the item details page
 
-Page options
-- facetgroups
-- banners
-- blocks
-- attributes
+*Basic configuration*
+```json
+{
+    "code" : "item_details",
+    "i18n" : [],
+    "name" : "Item details",
+    "sortOrder" : 1,
+    "type" : "catalog"
+}
+```
+*Attributes*
+- [showFavoriteIcon](attributes.md#showFavoriteIcon)
+- [showAttributes](attributes.md#showAttributes)
+- [showFacets](attributes.md#showFacets)
+- [showSalesOrderAddressInfo](attributes.md#showSalesOrderAddressInfo)
+
+
+## Favorites
+*Basic configuration*
+```json
+{
+    "code" : "favorites",
+    "i18n" : [],
+    "name" : "Favorites",
+    "sortOrder" : 1,
+    "type" : "catalog"
+}
+```
+*Attributes*
+- [showFavoriteIcon](attributes.md#showFavoriteIcon)
+- [showAttributes](attributes.md#showAttributes)
+- [showFacets](attributes.md#showFacets)
+- [facetgroups](attributes.md#facetgroups)
+- [banner](attributes.md#banner)
+
+## Orderhistory
+*Basic configuration*
+```json
+{
+    "code" : "orderhistory",
+    "i18n" : [],
+    "name" : "Order history",
+    "sortOrder" : 1,
+    "type" : "orderhistory"
+}
+```
+*Attributes*
+- [banner](attributes.md#banner)
+- [facetgroups](attributes.md#facetgroups)
+
+## Checkout
+*Basic configuration*
+```json
+{
+    "code" : "checkout",
+    "i18n" : [],
+    "name" : "Checkout",
+    "sortOrder" : 1,
+    "type" : "checkout"
+}
+```
+*Attributes*
+- [showDeliveryColumn](attributes.md#showDeliveryColumn)
+- [showTermsAndConditionsCheckbox](attributes.md#showTermsAndConditionsCheckbox)
+- [customerReferenceMaxLength](attributes.md#customerReferenceMaxLength)
+- [showUomInfoForUoms](attributes.md#showUomInfoForUoms)
+- [showOrderType](attributes.md#showOrderType)
+
+## Search
+*Basic configuration*
+```json
+{
+    "code" : "search",
+    "i18n" : [],
+    "name" : "Search",
+    "sortOrder" : 1,
+    "type" : "search"
+}
+```
+
+*Attributes*
+- [facetgroups](attributes.md#facetgroups)
