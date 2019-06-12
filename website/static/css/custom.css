@@ -25,3 +25,9 @@ a {
 
   .onPageNav a
   {text-decoration: none;}
+
+  .fixedHeaderContainer a
+  {text-decoration: none;}
+
+  .nav-footer .sitemap a
+  {text-decoration: none;}

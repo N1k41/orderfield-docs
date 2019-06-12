@@ -1,0 +1,13 @@
+---
+id: products
+title: Products
+sidebar_label: Products
+---
+
+| Attribute | Format | Remarks |
+| --- | --- | --- |
+| <a name="product.code"></a>code | <span style="color:red">**Required** </span> <br />Your product’s unique identifier <br /><br />**Example** <br /> <span style="color:green">12345</span><br /><br /> **Syntax** <br /> Max 50 characters |<ul><li>Use a unique value for each product. Use the product's SKU where possible</li><li>Keep the code the same when updating your data</li><li>Use only valid unicode characters. Avoid invalid characters like control, function, or private area characters</li><li>Use the same code for the same product - across countries or languages</li></ul> |
+| <a name="product.name"></a>name | <span style="color:red">**Required** </span> <br />Your product’s name <br /><br />**Example** <br /> <span style="color:green">Demo Guitar Deluxe</span><br /><br /> **Syntax** <br /> Max 150 characters |<ul><li>Accurately describe your product</li><li>Translations are supported</li></ul> |
+| <a name="product.desc"></a>desc | <span style="color:orange">**Optional** </span> <br />Your product’s description <br /><br />**Example** <br /> <span style="color:green">The Demo Guitar Deluxe has a solid mahogany body with maple top and a rounded 50's-style mahogany neck with a rosewood fingerboard and trapezoid inlays.</span><br /><br /> **Syntax** <br /> Max 5000 characters |<ul><li>Accurately describe your product</li><li>Don’t include promotional text like "free shipping," all capital letters, or gimmicky foreign characters</li><li>Include only information about the product</li><li>Translations are supported</li></ul> |
+| <a name="product.facets"></a>facets | <span style="color:orange">**Optional** </span> <br />Characteristics of your product <br /><br />**Example** <br /> <span style="color:green">["color=green","height=12","safety-class=S3","brand=10","producttype=12"]</span><br /><br /> **Syntax** <br /> Max 50 characters per facet |<ul><li>Include one value per facet</li><li>Can be used to create (catalogue) filters on characteristics like brand or category</li><li>Can be displayed on the item details screen</li><li>Can be used for search</li><li>Translations are supported</li></ul> |
+| <a name="product.barcode"></a>barcode | <span style="color:orange">**Optional** </span> <br />The barcode of your product<br /><br />**Example** <br /> <span style="color:green">8717847129192</span><br /><br /> **Syntax** <br /> Max 50 numeric characters |<ul><li>Exclude dashes and spaces</li><li>Supported values include EAN, JAN, UPC, ISBN, ITF-14</li><li>Different barcodes for multipacks or bundles are supported</li><li>Can be used for scanning</li></ul> |

@@ -48,12 +48,12 @@ class Footer extends React.Component {
            
             <a href={this.docUrl('api', this.props.language)}>
               API Reference
-            </a>
-            */}
+            </a>*/}
+            
           </div>
-           <div>
+           {/*<div>
             <h5>Community</h5>
-            {/*<a href={this.pageUrl('users.html', this.props.language)}>
+            <a href={this.pageUrl('users.html', this.props.language)}>
               User Showcase
             </a>
             <a
@@ -61,10 +61,10 @@ class Footer extends React.Component {
               target="_blank"
               rel="noreferrer noopener">
               Stack Overflow
-          </a>*/}
+          </a>
 
             <a href="https://iconum.slack.com/">Project Chat</a>
-          </div>
+          </div>*/}
           <div>
             
             <h5>Meer</h5>
