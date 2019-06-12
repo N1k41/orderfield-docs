@@ -1,0 +1,85 @@
+<!DOCTYPE html><html lang="en"><head><meta charSet="utf-8"/><meta http-equiv="X-UA-Compatible" content="IE=edge"/><title>Customers · OrderField Documentation</title><meta name="viewport" content="width=device-width"/><meta name="generator" content="Docusaurus"/><meta name="description" content="&lt;p&gt;| Attribute | Format | Remarks |&lt;/p&gt;
+"/><meta name="docsearch:language" content="en"/><meta property="og:title" content="Customers · OrderField Documentation"/><meta property="og:type" content="website"/><meta property="og:url" content="https://docs.orderfield.com/"/><meta property="og:description" content="&lt;p&gt;| Attribute | Format | Remarks |&lt;/p&gt;
+"/><meta property="og:image" content="https://docs.orderfield.com/img/undraw_online.svg"/><meta name="twitter:card" content="summary"/><meta name="twitter:image" content="https://docs.orderfield.com/img/undraw_tweetstorm.svg"/><link rel="shortcut icon" href="/img/favicon.ico"/><link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/default.min.css"/><script>
+              (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+              (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+              m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+              })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+              ga('create', 'UA-140657262-1', 'auto');
+              ga('send', 'pageview');
+            </script><script type="text/javascript" src="https://buttons.github.io/buttons.js"></script><script src="/js/scrollSpy.js"></script><link rel="stylesheet" href="/css/main.css"/><script src="/js/codetabs.js"></script></head><body class="sideNavVisible separateOnPageNav"><div class="fixedHeaderContainer"><div class="headerWrapper wrapper"><header><a href="/"><img class="logo" src="/img/favicon.ico" alt="OrderField Documentation"/><h2 class="headerTitleWithLogo">OrderField Documentation</h2></a><div class="navigationWrapper navigationSlider"><nav class="slidingNav"><ul class="nav-site nav-site-internal"><li class="siteNavGroupActive"><a href="/docs/intro" target="_self">Docs</a></li><li class=""><a href="/docs/app" target="_self">App</a></li></ul></nav></div></header></div></div><div class="navPusher"><div class="docMainWrapper wrapper"><div class="container docsNavContainer" id="docsNav"><nav class="toc"><div class="toggleNav"><section class="navWrapper wrapper"><div class="navBreadcrumb wrapper"><div class="navToggle" id="navToggler"><div class="hamburger-menu"><div class="line1"></div><div class="line2"></div><div class="line3"></div></div></div><h2><i>›</i><span>Configuration</span></h2><div class="tocToggler" id="tocToggler"><i class="icon-toc"></i></div></div><div class="navGroups"><div class="navGroup"><h3 class="navGroupCategoryTitle">Starten met OrderField</h3><ul class=""><li class="navListItem"><a class="navItem" href="/docs/intro">Introductie</a></li><li class="navListItem"><a class="navItem" href="/docs/erpdata">ERP Data</a></li><li class="navListItem"><a class="navItem" href="/docs/orders">Orders</a></li></ul></div><div class="navGroup"><h3 class="navGroupCategoryTitle">Opties</h3><ul class=""><li class="navListItem"><a class="navItem" href="/docs/catalogus">Catalogusindeling</a></li><li class="navListItem"><a class="navItem" href="/docs/orders-1">Order types</a></li><li class="navListItem"><a class="navItem" href="/docs/stock-1">Toekomstige voorraad</a></li><li class="navListItem"><a class="navItem" href="/docs/languages">Talen</a></li><li class="navListItem"><a class="navItem" href="/docs/deliverydates">Leverdagen</a></li><li class="navListItem"><a class="navItem" href="/docs/huisstijl">Huisstijl</a></li></ul></div><div class="navGroup"><h3 class="navGroupCategoryTitle">Configuration</h3><ul class=""><li class="navListItem"><a class="navItem" href="/docs/pages">Pages</a></li><li class="navListItem"><a class="navItem" href="/docs/tenants">Tenants</a></li><li class="navListItem navListItemActive"><a class="navItem" href="/docs/customers">Customers</a></li><li class="navListItem"><a class="navItem" href="/docs/products">Products</a></li><li class="navListItem"><a class="navItem" href="/docs/prices">Prices</a></li></ul></div></div></section></div><script>
+            var coll = document.getElementsByClassName('collapsible');
+            var checkActiveCategory = true;
+            for (var i = 0; i < coll.length; i++) {
+              var links = coll[i].nextElementSibling.getElementsByTagName('*');
+              if (checkActiveCategory){
+                for (var j = 0; j < links.length; j++) {
+                  if (links[j].classList.contains('navListItemActive')){
+                    coll[i].nextElementSibling.classList.toggle('hide');
+                    coll[i].childNodes[1].classList.toggle('rotate');
+                    checkActiveCategory = false;
+                    break;
+                  }
+                }
+              }
+
+              coll[i].addEventListener('click', function() {
+                var arrow = this.childNodes[1];
+                arrow.classList.toggle('rotate');
+                var content = this.nextElementSibling;
+                content.classList.toggle('hide');
+              });
+            }
+
+            document.addEventListener('DOMContentLoaded', function() {
+              createToggler('#navToggler', '#docsNav', 'docsSliderActive');
+              createToggler('#tocToggler', 'body', 'tocActive');
+
+              var headings = document.querySelector('.toc-headings');
+              headings && headings.addEventListener('click', function(event) {
+                var el = event.target;
+                while(el !== headings){
+                  if (el.tagName === 'A') {
+                    document.body.classList.remove('tocActive');
+                    break;
+                  } else{
+                    el = el.parentNode;
+                  }
+                }
+              }, false);
+
+              function createToggler(togglerSelector, targetSelector, className) {
+                var toggler = document.querySelector(togglerSelector);
+                var target = document.querySelector(targetSelector);
+
+                if (!toggler) {
+                  return;
+                }
+
+                toggler.onclick = function(event) {
+                  event.preventDefault();
+
+                  target.classList.toggle(className);
+                };
+              }
+            });
+        </script></nav></div><div class="container mainContainer"><div class="wrapper"><div class="post"><header class="postHeader"><h1 class="postHeaderTitle">Customers</h1></header><article><div><span><table>
+<thead>
+<tr><th>Attribute</th><th>Format</th><th>Remarks</th></tr>
+</thead>
+<tbody>
+<tr><td><a name="customer.code"></a>code</td><td><span style="color:red"><strong>Required</strong> </span> <br />Your customers's unique identifier <br /><br /><strong>Example</strong> <br /> <span style="color:green">12345</span><br /><br /> <strong>Syntax</strong> <br /> Max 50 characters</td><td><ul><li>Use a unique value for each customer</li><li>Keep the code the same when updating your data</li><li>Use only valid unicode characters. Avoid invalid characters like control, function, or private area characters</li><li>Use the same code for the same customer - across countries or languages</li></ul></td></tr>
+<tr><td><a name="customer.name"></a>name</td><td><span style="color:red"><strong>Required</strong> </span> <br />Your customer's name <br /><br /><strong>Example</strong> <br /> <span style="color:green">Acme Company</span><br /><br /> <strong>Syntax</strong> <br /> Max 150 characters</td><td><ul><li>Try to keep the name clean (avoid codes, remarks, unnecessary characters)</li></ul></td></tr>
+<tr><td><a name="customer.addresses"></a>addresses</td><td><span style="color:red"><strong>Required</strong> </span> <br />Array with your customer's address(es) <br /><br /><strong>Example</strong> <br /> <span style="color:green">[&quot;isPrimary&quot;:true, &quot;code&quot;:&quot;123456&quot;, &quot;type&quot;:&quot;Delivery&quot;, &quot;name&quot;:&quot;Cantona Olsztyn&quot;, &quot;addressLine1&quot;:&quot;ul. Kanta 230&quot;, &quot;zipCode&quot;:&quot;10-691&quot;, &quot;city&quot;:&quot;Olsztyn&quot;, &quot;countryCode&quot;:&quot;PL&quot;, &quot;country&quot;:&quot;Polska&quot;]</span><br /><br /> <strong>Syntax</strong> <br /> <span style="color:green">addresses</span> uses 9 sub-attributes:<ul><li><span style="color:green">isPrimary</span> (optional)<br/>The default address</li><li><span style="color:green">code</span> (optional)<br/>The <em>unique</em> address Id</li><li><span style="color:green">type</span> (optional)<br/>The address type: shipping or delivery</li><li><span style="color:green">name</span> (required)<br/>Name of the company</li><li><span style="color:green">addressLine1</span> (required)<br/>Street and number</li><li><span style="color:green">zipCode</span> (required)<br/>Zip code</li><li><span style="color:green">city</span> (required)<br/>City</li><li><span style="color:green">countryCode</span> (required)<br/>Two character country code</li><li><span style="color:green">country</span> (optional)<br/>Country name</li></ul></td><td><ul><li>If your customer has one address, that's fine. Just make sure the required sub-attributes are filled.</li></ul></td></tr>
+<tr><td><a name="customer.phonenumber"></a>phonenumber</td><td><span style="color:orange"><strong>Optional</strong> </span> <br />Your customer's phone number <br /><br /><strong>Example</strong> <br /> <span style="color:green">061234567</span><br /><br /> <strong>Syntax</strong> <br /> Numeric max 12 characters</td><td></td></tr>
+<tr><td><a name="customer.currency"></a>currency</td><td><span style="color:orange"><strong>Optional</strong> </span> <br />Your customer's currency <br /><br /><strong>Example</strong> <br /> <span style="color:green">EUR</span><br /><br /> <strong>Syntax</strong> <br /> 3 character currency code (ISO 4217)</td><td></td></tr>
+<tr><td><a name="customer.language"></a>language</td><td><span style="color:orange"><strong>Optional</strong> </span> <br />Your customer's preferred language <br /><br /><strong>Example</strong> <br /> <span style="color:green">en</span><br /><br /> <strong>Syntax</strong> <br /> 2 character language code (ISO 639-1)</td><td><ul><li>Sets the default language in which the apps are initially displayed</li><li>Can be overridden by the customer accounts</li></ul></td></tr>
+<tr><td><a name="customer.blocked"></a>blocked</td><td><span style="color:orange"><strong>Optional</strong> </span> <br />Indicates the customer is  blocked <br /><br /><strong>Example</strong> <br /> <span style="color:green">true</span><br/><br /> <strong>Syntax</strong> <br /> <span style="color:green">true ; false</span><br/><span style="color:green">1 ; 0</span></td><td><ul><li>Blocked customers are not allowed to login or create user accounts</li></ul></td></tr>
+<tr><td><a name="customer.showprices"></a>showprices</td><td><span style="color:orange"><strong>Optional</strong> </span> <br />Indicates the customer is allowed to see prices<br /><br /><strong>Example</strong> <br /> <span style="color:green">true</span><br/><br /> <strong>Syntax</strong> <br /> <span style="color:green">true ; false</span><br/><span style="color:green">1 ; 0</span></td><td><ul><li>For (potential) customers that are allowed to view the products without prices or the ability place orders</li></ul></td></tr>
+<tr><td><a name="customer.minOrderValue"></a>minOrderValue</td><td><span style="color:orange"><strong>Optional</strong> </span> <br />Minimum order value <br /><br /><strong>Example</strong> <br /> <span style="color:green">360</span><br/><br /> <strong>Syntax</strong> <br /> Numeric</td><td><ul><li>Orders below this value can not be submitted</li></ul></td></tr>
+<tr><td><a name="customer.customergroups"></a>customergroups</td><td><span style="color:orange"><strong>Optional</strong> </span> <br />The customer group(s) of the customer<br /><br /><strong>Example</strong> <br /> <span style="color:green">[&quot;country_10&quot;, &quot;customergroup_9999&quot;] </span><br/><br /> <strong>Syntax</strong> <br /> Max 50 characters per customergroup</td><td></td></tr>
+<tr><td><a name="customer.pricegroups"></a>pricegroups</td><td><span style="color:orange"><strong>Optional</strong> </span> <br />The price group(s) of the customer<br /><br /><strong>Example</strong> <br /> <span style="color:green">[&quot;retail_eu&quot;, &quot;export&quot;] </span><br/><br /> <strong>Syntax</strong> <br /> Max 50 characters per pricegroup</td><td><ul><li>Pricegroups can be applied to any number of customers</li></ul></td></tr>
+</tbody>
+</table>
+</span></div></article></div><div class="docs-prevnext"><a class="docs-prev button" href="/docs/tenants"><span class="arrow-prev">← </span><span>Tenants</span></a><a class="docs-next button" href="/docs/products"><span>Products</span><span class="arrow-next"> →</span></a></div></div></div><nav class="onPageNav"></nav></div><footer class="nav-footer" id="footer"><section class="sitemap"><a href="/" class="nav-home"><img src="/img/favicon.ico" alt="OrderField Documentation" width="66" height="58"/></a><div><h5>Docs</h5><a href="/docs/intro">Starten met OrderField</a></div><div><h5>Meer</h5><a href="/docs/about">Over OrderField</a><a href="mailto:info@orderfield.com">Contact</a></div></section><section class="copyright">Copyright © 2019 OrderField</section></footer></div></body></html>
