@@ -1,0 +1,14 @@
+---
+id: customergroups
+title: Customer groups
+sidebar_label: Customergroups
+---
+
+Customer groups are used to link customers to certain business rules, prices etc.
+
+| Attribute | Format | Remarks |
+| --- | --- | --- |
+| <a name="code"></a>code | <span style="color:red">**Required** </span> <br />Your customers group's unique identifier <br /><br />**Example** <br /> <span style="color:green">12345</span><br /><br /> **Syntax** <br /> Max 50 characters |<ul><li>Use a unique value for each customer group</li><li>Keep the code the same when updating your data</li><li>Use only valid unicode characters. Avoid invalid characters like control, function, or private area characters</li><li>Use the same code for the same customer group - across countries or languages</li></ul> |
+| <a name="name"></a>name | <span style="color:red">**Required** </span> <br />Your customers group's name<br /><br />**Example** <br /> <span style="color:green">Retail NL</span><br /><br /> **Syntax** <br /> Max 150 characters |<ul><li>Try to keep the name clean (avoid codes, remarks, unnecessary characters)</li></ul> |
+| <a name="hierarchyItems"></a>hierarchyItems | <span style="color:orange">**Optional** </span> <br />Scopes the products<br /><br />**Example** <br /> <span style="color:green">scope_products_company_x</span><br /><br /> **Syntax** <br /> Max 50 characters |<ul><li>Is used to show only products within a certain scope e.g. assortment for a specific company</li></ul> |
+| <a name="deliveryDateOptions"></a>deliveryDateOptions | <span style="color:orange">**Optional** </span> <br />Delivery date settings <br /><br />  **Syntax** <br /> <span style="color:green">deliveryDateOptions</span><br/> uses 2 sub-attributes:<ul><li><span style="color:green">leadtimes</span><br/>leadtimes per weekday</li><li><span style="color:green">blockedDates</span><br/>Blocked dates</li></ul> |<ul><li><span style="color:green">leadtimes</span><br/>uses 3 sub-attributes, example<br><span style="color:green">{ "weekDay" : 1, "timeLimit" : "14:00:00", "daysToAdd" : 1 }</span><br>_On weekday 1 (Monday), before 14:00 o'clock, add one day to today (orders submitted before 14:00 o'clock on monday can be delivered on tuesday)_</li><li><span style="color:green">blockedDates</span><br/>uses 4 sub-attributes, example<br><span style="color:green">{"date" : "2019-12-26", "name" : "Tweede kerstdag 2019", "deliveryBlocked" : true, "orderProcessingBlocked" : true}</span><br/><br/><span style="color:green">"deliveryBlocked" : true</span> => _No delivery on 2019-12-26 due to Christmas_ <br/><span style="color:green">"orderProcessingBlocked" : true</span> => _Orders submitted on 2019-12-26 will not be processed that day (customers can **not** choose 2019-12-27 as a delivery date when ordering on the 26th._ </li></ul> |

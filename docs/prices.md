@@ -6,6 +6,8 @@ sidebar_label: Prices
 
 Prices can be configured per product, per customer or per customer group. The platform also supports tier pricing.
 
+Collection: _tenant__productprices_
+
 | Attribute | Format | Remarks |
 | --- | --- | --- |
 | <a name="price.productcode"></a>productcode | <span style="color:red">**Required** </span> <br />Product code to which the price applies<br /><br />**Example** <br /> <span style="color:green">12345</span><br /><br /> **Syntax** <br />Max 50 characters |<ul><li>The product code should match one product</li></ul>|

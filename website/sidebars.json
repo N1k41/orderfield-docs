@@ -2,7 +2,7 @@
   "docs": {
     "Starten met OrderField": ["intro", "erpdata","orders"],
     "Opties": ["catalogus", "orders-1","stock-1","languages","deliverydates","huisstijl"],
-    "Configuration": ["pages","tenants","customers","products","prices"]
+    "Configuration": ["pages","tenants","customers","products","prices","customergroups"]
   },
   "docs-other": {
     "Other": ["other"]
